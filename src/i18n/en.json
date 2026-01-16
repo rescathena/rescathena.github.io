@@ -1,0 +1,114 @@
+{
+    "nav": {
+        "home": "Home",
+        "why": "Why",
+        "collaborate": "Collaborate",
+        "contact": "Contact",
+        "joinUs": "Join Us"
+    },
+    "hero": {
+        "tagline": "Rebuilding trust in animal rescue",
+        "headline1": "What if every donation",
+        "headline2": "actually saved an animal?",
+        "question1": "What if you could see exactly where your money goes?",
+        "question2": "What if NGOs were rated by real people, not promises?",
+        "question3": "What if",
+        "question3Highlight": "trust was transparent?",
+        "ctaDiscover": "Discover how",
+        "ctaLearn": "Learn more"
+    },
+    "motivation": {
+        "tagline": "Why we exist",
+        "headline1": "Kindness deserves",
+        "headline2": "certainty",
+        "para1": "Millions of people want to help animals in need. They donate with open hearts, trusting that their money will make a difference.",
+        "para2": "But too often, that trust is broken. Scams and fake NGOs have created a",
+        "para2Highlight": "crisis of confidence",
+        "para2End": "that hurts the organizations doing genuine, life-saving work.",
+        "para3Start": "At",
+        "para3Brand": "RESCATHENA",
+        "para3End": ", we believe transparency is the antidote. We're building a platform where every donation is tracked, every expense is verified, and every NGO earns trust through their actions—not just their words.",
+        "taglineEnd": "Think of it as",
+        "taglineEndHighlight": "Glassdoor for animal rescue organizations",
+        "stats": {
+            "stat1Value": "78%",
+            "stat1Label": "of donors worry their money won't reach its destination",
+            "stat2Value": "1 in 5",
+            "stat2Label": "charity websites are flagged for suspicious activity",
+            "stat3Value": "∞",
+            "stat3Label": "animals need our help every single day"
+        }
+    },
+    "collaboration": {
+        "tagline": "Open Project",
+        "headline1": "Built by the",
+        "headline2": "community",
+        "headlineEnd": ", for the community",
+        "description": "RESCATHENA is not owned by anyone. It's a tool for everyone who believes animal rescue should be transparent and trustworthy.",
+        "features": {
+            "openSource": {
+                "title": "100% Open Source",
+                "description": "Every line of code is public. Audit it, improve it, trust it."
+            },
+            "communityValidated": {
+                "title": "Community Validated",
+                "description": "Every NGO is vetted by real community members who care."
+            },
+            "trustScores": {
+                "title": "Trust Scores",
+                "description": "NGOs earn ratings based on verified actions, not promises."
+            },
+            "radicalTransparency": {
+                "title": "Radical Transparency",
+                "description": "Every donation tracked. Every expense justified and visible."
+            }
+        },
+        "rolesTitle": "We're looking for people like",
+        "rolesTitleHighlight": "you",
+        "roles": {
+            "developers": {
+                "title": "Developers",
+                "desc": "Build the future of trust"
+            },
+            "designers": {
+                "title": "Designers",
+                "desc": "Create intuitive experiences"
+            },
+            "marketers": {
+                "title": "Marketers",
+                "desc": "Spread the word"
+            },
+            "ngoExperts": {
+                "title": "NGO Experts",
+                "desc": "Share your knowledge"
+            },
+            "anyone": {
+                "title": "Anyone",
+                "desc": "Who cares about animals"
+            }
+        }
+    },
+    "contact": {
+        "tagline": "Join the Movement",
+        "headline1": "Be part of the",
+        "headline2": "chain of trust",
+        "description": "Whether you want to contribute, collaborate, or just stay updated—we'd love to hear from you.",
+        "form": {
+            "nameLabel": "Your Name",
+            "namePlaceholder": "Jane Doe",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "jane@example.com",
+            "messageLabel": "Message (Optional)",
+            "messagePlaceholder": "Tell us about yourself, your skills, or how you'd like to help...",
+            "subscribe": "Keep me updated on RESCATHENA's progress",
+            "submit": "Send Message"
+        },
+        "success": {
+            "title": "Thank you!",
+            "message": "We've received your message and will be in touch soon."
+        },
+        "footer": {
+            "copyright": "RESCATHENA. Open source with ❤️ for animals everywhere."
+        }
+    }
+}

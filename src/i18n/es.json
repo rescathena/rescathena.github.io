@@ -1,0 +1,114 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "why": "Por qué",
+        "collaborate": "Colaborar",
+        "contact": "Contacto",
+        "joinUs": "Únete"
+    },
+    "hero": {
+        "tagline": "Reconstruyendo la confianza en el rescate animal",
+        "headline1": "¿Y si cada donación",
+        "headline2": "realmente salvara un animal?",
+        "question1": "¿Y si pudieras ver exactamente a dónde va tu dinero?",
+        "question2": "¿Y si las ONG fueran calificadas por personas reales, no por promesas?",
+        "question3": "¿Y si la",
+        "question3Highlight": "confianza fuera transparente?",
+        "ctaDiscover": "Descubre cómo",
+        "ctaLearn": "Saber más"
+    },
+    "motivation": {
+        "tagline": "Por qué existimos",
+        "headline1": "La bondad merece",
+        "headline2": "certeza",
+        "para1": "Millones de personas quieren ayudar a los animales necesitados. Donan con el corazón abierto, confiando en que su dinero marcará la diferencia.",
+        "para2": "Pero muy a menudo, esa confianza se rompe. Las estafas y las ONG falsas han creado una",
+        "para2Highlight": "crisis de confianza",
+        "para2End": "que perjudica a las organizaciones que realizan un trabajo genuino y salvavidas.",
+        "para3Start": "En",
+        "para3Brand": "RESCATHENA",
+        "para3End": ", creemos que la transparencia es el antídoto. Estamos construyendo una plataforma donde cada donación se rastrea, cada gasto se verifica, y cada ONG gana confianza a través de sus acciones, no solo de sus palabras.",
+        "taglineEnd": "Piensa en ello como",
+        "taglineEndHighlight": "Glassdoor para organizaciones de rescate animal",
+        "stats": {
+            "stat1Value": "78%",
+            "stat1Label": "de los donantes se preocupan de que su dinero no llegue a su destino",
+            "stat2Value": "1 de 5",
+            "stat2Label": "sitios web de caridad son señalados por actividad sospechosa",
+            "stat3Value": "∞",
+            "stat3Label": "animales necesitan nuestra ayuda cada día"
+        }
+    },
+    "collaboration": {
+        "tagline": "Proyecto Abierto",
+        "headline1": "Construido por la",
+        "headline2": "comunidad",
+        "headlineEnd": ", para la comunidad",
+        "description": "RESCATHENA no es propiedad de nadie. Es una herramienta para todos los que creen que el rescate animal debe ser transparente y confiable.",
+        "features": {
+            "openSource": {
+                "title": "100% Código Abierto",
+                "description": "Cada línea de código es pública. Audítalo, mejóralo, confía en él."
+            },
+            "communityValidated": {
+                "title": "Validado por la Comunidad",
+                "description": "Cada ONG es verificada por miembros reales de la comunidad."
+            },
+            "trustScores": {
+                "title": "Puntuaciones de Confianza",
+                "description": "Las ONG obtienen calificaciones basadas en acciones verificadas, no promesas."
+            },
+            "radicalTransparency": {
+                "title": "Transparencia Radical",
+                "description": "Cada donación rastreada. Cada gasto justificado y visible."
+            }
+        },
+        "rolesTitle": "Buscamos personas como",
+        "rolesTitleHighlight": "tú",
+        "roles": {
+            "developers": {
+                "title": "Desarrolladores",
+                "desc": "Construye el futuro de la confianza"
+            },
+            "designers": {
+                "title": "Diseñadores",
+                "desc": "Crea experiencias intuitivas"
+            },
+            "marketers": {
+                "title": "Marketing",
+                "desc": "Difunde la palabra"
+            },
+            "ngoExperts": {
+                "title": "Expertos en ONG",
+                "desc": "Comparte tu conocimiento"
+            },
+            "anyone": {
+                "title": "Cualquiera",
+                "desc": "Que se preocupe por los animales"
+            }
+        }
+    },
+    "contact": {
+        "tagline": "Únete al Movimiento",
+        "headline1": "Sé parte de la",
+        "headline2": "cadena de confianza",
+        "description": "Ya sea que quieras contribuir, colaborar o simplemente mantenerte informado, nos encantaría saber de ti.",
+        "form": {
+            "nameLabel": "Tu Nombre",
+            "namePlaceholder": "María García",
+            "emailLabel": "Correo Electrónico",
+            "emailPlaceholder": "maria@ejemplo.com",
+            "messageLabel": "Mensaje (Opcional)",
+            "messagePlaceholder": "Cuéntanos sobre ti, tus habilidades o cómo te gustaría ayudar...",
+            "subscribe": "Mantenerme informado sobre el progreso de RESCATHENA",
+            "submit": "Enviar Mensaje"
+        },
+        "success": {
+            "title": "¡Gracias!",
+            "message": "Hemos recibido tu mensaje y nos pondremos en contacto pronto."
+        },
+        "footer": {
+            "copyright": "RESCATHENA. Código abierto con ❤️ para los animales de todo el mundo."
+        }
+    }
+}
