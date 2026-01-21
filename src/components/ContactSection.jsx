@@ -46,25 +46,14 @@ export default function ContactSection() {
                 body: data
             });
 
-            if (response.status === 200) {
-                alert('Form submitted successfully!');
-                setFormData({
-                    name: '',
-                    email: '',
-                    message: '',
-                    subscribe: false,
-                });
-                setSubmitted(true);
-            } else {
-                console.error('Error submitting form:', response);
-                setFormData({
-                    name: '',
-                    email: '',
-                    message: '',
-                    subscribe: false,
-                });
-                setSubmitted(true);
-            }
+            setFormData({
+                name: '',
+                email: '',
+                message: '',
+                subscribe: false,
+            });
+            setSubmitted(true);
+
         } catch (error) {
             console.error('Error submitting form:', error);
         }
