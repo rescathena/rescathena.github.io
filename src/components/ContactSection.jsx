@@ -49,6 +49,8 @@ export default function ContactSection() {
                     subscribe: false,
                 });
                 setSubmitted(true);
+            }else{
+                console.error('Error submitting form:', response);
             }
         } catch (error) {
             console.error('Error submitting form:', error);
