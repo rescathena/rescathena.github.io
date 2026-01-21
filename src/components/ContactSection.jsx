@@ -32,11 +32,27 @@ export default function ContactSection() {
         return () => observer.disconnect();
     }, []);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // In production, this would send to a backend
-        console.log('Form submitted:', formData);
-        setSubmitted(true);
+        try {
+            const response = await fetch('https://formgrid.dev/api/f/qhqofhf8', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                alert('Form submitted successfully!');
+                setFormData({
+                    name: '',
+                    email: '',
+                    message: '',
+                    subscribe: false,
+                });
+                setSubmitted(true);
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
     };
 
     const handleChange = (e) => {
