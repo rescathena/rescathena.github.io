@@ -46,7 +46,7 @@ export default function ContactSection() {
                 body: data
             });
 
-            if (response.ok) {
+            if (response.status === 200) {
                 alert('Form submitted successfully!');
                 setFormData({
                     name: '',
@@ -57,6 +57,13 @@ export default function ContactSection() {
                 setSubmitted(true);
             } else {
                 console.error('Error submitting form:', response);
+                setFormData({
+                    name: '',
+                    email: '',
+                    message: '',
+                    subscribe: false,
+                });
+                setSubmitted(true);
             }
         } catch (error) {
             console.error('Error submitting form:', error);
