@@ -37,7 +37,11 @@ export default function ContactSection() {
         try {
             const response = await fetch('https://formgrid.dev/api/f/qhqofhf8', {
                 method: 'POST',
-                body: formData
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(formData)
             });
 
             if (response.ok) {
@@ -49,7 +53,7 @@ export default function ContactSection() {
                     subscribe: false,
                 });
                 setSubmitted(true);
-            }else{
+            } else {
                 console.error('Error submitting form:', response);
             }
         } catch (error) {
@@ -70,8 +74,8 @@ export default function ContactSection() {
             ref={sectionRef}
             id="contact"
             className={`section ${theme === 'dark'
-                    ? 'bg-gradient-to-b from-dark to-[#1a1d21]'
-                    : 'bg-gradient-to-b from-light to-[#e0e0e0]'
+                ? 'bg-gradient-to-b from-dark to-[#1a1d21]'
+                : 'bg-gradient-to-b from-light to-[#e0e0e0]'
                 }`}
         >
             <div className="max-w-4xl mx-auto px-4 w-full">
