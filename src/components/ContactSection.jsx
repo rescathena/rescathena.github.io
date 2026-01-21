@@ -35,13 +35,15 @@ export default function ContactSection() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            const data = new FormData();
+            data.append('name', formData.name);
+            data.append('email', formData.email);
+            data.append('message', formData.message);
+            data.append('subscribe', formData.subscribe);
+
             const response = await fetch('https://formgrid.dev/api/f/qhqofhf8', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify(formData)
+                body: data
             });
 
             if (response.ok) {
