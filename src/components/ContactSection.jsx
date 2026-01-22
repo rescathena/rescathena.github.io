@@ -44,7 +44,7 @@ export default function ContactSection() {
             const templateParams = {
                 title: "I want to belong",
                 name: formData.name,
-                time: formData.subscribe,
+                time: String(formData.subscribe),
                 message: formData.message,
                 email: formData.email,
             };
