@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
+import emailjs from '@emailjs/browser';
 
 export default function ContactSection() {
     const sectionRef = useRef(null);
@@ -34,17 +35,26 @@ export default function ContactSection() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            const data = new FormData();
-            data.append('name', formData.name);
-            data.append('email', formData.email);
-            data.append('message', formData.message);
-            data.append('subscribe', formData.subscribe);
 
-            const response = await fetch('https://formgrid.dev/api/f/qhqofhf8', {
-                method: 'POST',
-                body: data
-            });
+        try {
+            const publicKey = import.meta.env.VITE_EMAILS_JS_PUBLIC_KEY;
+
+            emailjs.init(publicKey);
+
+            const templateParams = {
+                title: "I want to belong",
+                name: formData.name,
+                time: formData.subscribe,
+                message: formData.message,
+                email: formData.email,
+            };
+
+            await emailjs.send(
+                import.meta.env.VITE_EMAILS_JS_SERVICE_ID,
+                import.meta.env.VITE_EMAILS_JS_TEMPLATE_ID,
+                templateParams,
+                publicKey
+            );
 
             setFormData({
                 name: '',
@@ -56,6 +66,7 @@ export default function ContactSection() {
 
         } catch (error) {
             console.error('Error submitting form:', error);
+            alert('Failed to send message. Please try again later.');
         }
     };
 
